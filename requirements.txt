@@ -1,0 +1,24 @@
+# Packages needed to run E1156344.ipynb (and the other notebooks in this folder).
+# Versions are the ones the submitted results were produced with (Python 3.11.1).
+# Install with:  pip install -r requirements.txt
+
+# data handling
+numpy==2.4.6
+pandas==3.0.5
+
+# plotting
+matplotlib==3.11.2
+
+# graph features (connected components, Louvain communities)
+networkx==3.6.1
+
+# models and tuning
+scikit-learn==1.9.1
+xgboost==3.2.0
+lightgbm==4.7.0
+optuna==5.0.0
+torch==2.14.0
+
+# running the notebook
+jupyter==1.1.1
+ipykernel==7.3.0
