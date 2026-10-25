@@ -62,7 +62,7 @@ The notebook reads only these four files.
 | 7 | XGBoost submission (public 0.95730) |
 | 8-9 | A second XGBoost model with structural graph features, and its blend (0.95706) |
 | 10 | XGBoost + MLP rank blend (0.95830) |
-| 11 | Final submission: MLP with time-decay weights (0.95876), compared with every decay, rank and smoothing variant tried |
+| 11 | Final submission: MLP with time-decay weights (0.95875), compared with every decay, rank and smoothing variant tried |
 | 12 | SHAP explainability for the final XGBoost model |
 
 ## 5. Output files
