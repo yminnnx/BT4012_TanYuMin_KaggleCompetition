@@ -71,8 +71,8 @@ All files are written next to the notebook, overwriting any existing file of the
 
 | File | Section | Public LB |
 |---|---|---|
-| **`final_submission.csv`** | 11 | **0.95876** (final submission) |
-| `pruned_xgboost_narrow_submission.csv` | 7 | 0.95730 |
+| **`final_submission.csv/decay_xgbnone_mlpdecay098_blend_3to1_submission.csv`** | 11 | **0.95876** (final submission) |
+| `pruned_xgboost_narrow_submission.csv` | 7 | 0.95730 (second submission) |
 | `graph_structure_v2_submission.csv` | 8 | 0.95637 |
 | `blend_rank_04_gsv2_submission.csv` | 9 | 0.95706 |
 | `xgb_mlp_blend_{5,4,3,2,1}to1_submission.csv` | 10 | 3:1 = 0.95830 |
@@ -81,7 +81,7 @@ All files are written next to the notebook, overwriting any existing file of the
 ## 6. Reproducibility notes
 
 - **Seeds are fixed** (`RANDOM_STATE = 42`; `MLP_SEEDS` in section 10). The submitted files were produced with
-  `MLP_SEEDS = [42, 7, 123, 2023, 4102]`. With other seeds, the XGBoost results are identical and the MLP results differ only
+  `MLP_SEEDS = [7, 42, 314, 999, 4102]`. With other seeds, the XGBoost results are identical and the MLP results differ only
   slightly (rank correlation about 0.9997 with the submitted file).
 - **Section 7 uses this run's Optuna result.** On the same machine and package versions it finds the same settings as the
   submission (`n_estimators=492, max_depth=7, learning_rate=0.0139...`); sections 10-11 use these settings fixed, so they do
