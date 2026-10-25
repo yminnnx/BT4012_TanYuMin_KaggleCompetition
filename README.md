@@ -5,7 +5,7 @@ pruning, tuning, the models and blends that were submitted, and SHAP explainabil
 submission file.
 
 **Final submission:** XGBoost + a neural network (MLP) trained with time-decay weights, rank-blended 3:1. Public leaderboard
-ROC AUC **0.95876**.
+ROC AUC **0.95875**.
 
 ## 1. Requirements
 
@@ -71,7 +71,7 @@ All files are written next to the notebook, overwriting any existing file of the
 
 | File | Section | Public LB |
 |---|---|---|
-| **`final_submission.csv/decay_xgbnone_mlpdecay098_blend_3to1_submission.csv`** | 11 | **0.95876** (final submission) |
+| **`final_submission.csv/decay_xgbnone_mlpdecay098_blend_3to1_submission.csv`** | 11 | **0.95875** (final submission) |
 | `pruned_xgboost_narrow_submission.csv` | 7 | 0.95730 (second submission) |
 | `graph_structure_v2_submission.csv` | 8 | 0.95637 |
 | `blend_rank_04_gsv2_submission.csv` | 9 | 0.95706 |
